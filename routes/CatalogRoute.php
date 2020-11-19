@@ -9,7 +9,7 @@
  *
  * @author h.batatia
  */
-//include('daos/DAOFactory.php');
+
 class CatalogRoute {
     function execute(){
         $daoArticle = DAOFactory::createArticleDAO();
